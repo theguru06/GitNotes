@@ -1,0 +1,27 @@
+git --version
+git log
+
+git status
+
+git config --global user.email "the.guru06@gmail.com"
+git config --global user.name "Guru Prasad"
+git config --list
+
+
+ls -la  :> to see all the files
+
+git init  :> to initilaize git in a folder
+
+git add -A  :>to add to staging env
+
+git commit -m "..comments.."
+
+
+
+To push local file to Git URL for public:
+1> create repository and copy SSH
+2> set reference name of SSH: 
+     git remote add gitnotes https://github.com/theguru06/GitNotes.git
+3>  git push -u gitnotes master  - Push all, at this step will ask to login to your git account
+
+  
